@@ -1,26 +1,26 @@
 class Herd < Formula
   desc "GitHub-native orchestration for agentic development systems"
   homepage "https://github.com/Herd-OS/herd"
-  version "0.3.19"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Herd-OS/herd/releases/download/v0.3.19/herd-darwin-arm64"
-      sha256 "332cd704e0a751327fbb02628b9888a5516658f84b21cd5bb0dbba87953a254e"
+      url "https://github.com/Herd-OS/herd/releases/download/v0.4.0/herd-darwin-arm64"
+      sha256 "08ac2ee5df3881837162df1cd2460d331c3eff04ef16e7b2ecee6afe71762f55"
     else
-      url "https://github.com/Herd-OS/herd/releases/download/v0.3.19/herd-darwin-amd64"
-      sha256 "2f478de778f03061bf74d8eb197cb0ad08ae45ec0f98f71cd67291f0e436e4fe"
+      url "https://github.com/Herd-OS/herd/releases/download/v0.4.0/herd-darwin-amd64"
+      sha256 "38fb4ffec7b5df53d004661236cf8b38d534b50399221abf1881b277142f2b0c"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Herd-OS/herd/releases/download/v0.3.19/herd-linux-arm64"
-      sha256 "1e4905e8bdf4789538e31710fdb9a6b44f0e0adf341454bf15f81800b9a7f165"
+      url "https://github.com/Herd-OS/herd/releases/download/v0.4.0/herd-linux-arm64"
+      sha256 "e921b10e2d0d81d313a1635a5c89b31637a1f82218db6de55f52011974f94938"
     else
-      url "https://github.com/Herd-OS/herd/releases/download/v0.3.19/herd-linux-amd64"
-      sha256 "5d917c2c06504b7389ed5ad08495e901f7ffc5e1c67396519124a0f23d9f9c12"
+      url "https://github.com/Herd-OS/herd/releases/download/v0.4.0/herd-linux-amd64"
+      sha256 "eaffeaa8fc085320e94702d1ae2696067b274ac75d9c73b2e2c674ca7a0a2105"
     end
   end
 
